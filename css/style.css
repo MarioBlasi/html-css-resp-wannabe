@@ -129,29 +129,32 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /*------------Sotto  i 768px ------*/
+
 @media screen and (max-width: 768px) 
 {
     
-    .container{
-        width:100%;
-        flex-direction: column;
-    }
-
+}   
     
-}
 
+/*------------Sotto  i 480px px ------*/
 @media screen and (max-width: 480px)
 {
-    
-    .container{
-        width:100%;
-        flex-direction: column;
+      
+    .menu-item:active {
+        width: 100%;
     }
     
+    
+        
+       
+        
 }
+    
 
 
 
+/*------------Sopra i 768px e fino ai 1160px----*/
 @media screen and (min-width: 768px) 
 {
     .container{
