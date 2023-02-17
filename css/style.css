@@ -131,35 +131,38 @@ img {
  ************************************************/
 @media screen and (max-width: 768px) 
 {
-    body{
-        flex-wrap: wrap;
-        flex-direction: column;
-        
-    }
-        .container{
+    
+    .container{
         width:100%;
         flex-direction: column;
-       
-     }
-        .text-center{
+    }
+
+    
+}
+
+@media screen and (max-width: 480px)
+{
+    
+    .container{
+        width:100%;
         flex-direction: column;
-        
+    }
+    
+}
+
+
+
+@media screen and (min-width: 768px) 
+{
+    .container{
+        width:100%;
+        flex-direction: column;
     }
 }
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 1160px) 
 {
-    body{
-        flex-wrap: wrap;
+    .container{
+        width:100%;
         flex-direction: column;
-        
-    }
-        .container{
-        width:50%;
-        flex-direction: column;
-       
-     }
-        .text-center{
-        flex-direction: column;
-        
     }
 }
